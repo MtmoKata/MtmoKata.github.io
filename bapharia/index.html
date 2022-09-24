@@ -65,36 +65,7 @@
           <option value="Option3">Color3 3</option>
         </select>
           <py-script>
-            def file_deletion():
-                file_to_delete = input('File to delete: ')
-                print(f'Deleting <{file_to_delete}>\n')
-              input('Push enter to retun to menu')
- 
-            def file_creation():
-                pass
-
-            def show_menu():
-                print ("\nExample menu")
-                print ("-----------------")
-                print ("1) File deletion")
-                print ("2) File creation")
-                print ("Q) Exit\n")
-
-            def menu():
-                while True:
-                    show_menu()
-                    choice = input('Enter your choice: ').lower()
-                    if choice == '1':
-                        file_deletion()
-                    elif choice == '2':
-                        file_creation()
-                    elif choice == 'q':
-                        return
-                    else:
-                        print(f'Not a correct choice: <{choice}>,try again')
-
-            if __name__ == '__main__':
-                menu()
+            print("Test")
           </py-script>
         <iframe
           src="https://www.youtube.com/embed/RUu_RtRxsTY"
