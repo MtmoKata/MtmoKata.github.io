@@ -3,9 +3,11 @@ title: Bapharias Future
 published: true
 ---
 
-Poop smells gross
+Zakum "Mommy I want the animech web plugin" 
+Masi:"We have animech at home" 
+Animech at home:
 
-["Mommy I want the animech web plugin" Mom:"We have animech at home" Animech at home:](https://mtmokata.github.io/bapharia/baphariasfuture.html).
+[yeayea this is the link boi](https://mtmokata.github.io/bapharia/baphariasfuture.html).
 
 
 
