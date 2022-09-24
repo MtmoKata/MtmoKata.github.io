@@ -3,11 +3,11 @@ title: Bapharias Future
 published: true
 ---
 
-Zakum "Mommy I want the animech web plugin" 
+Zakum:"Masi I want the animech web plugin" 
 Masi:"We have animech at home" 
 Animech at home:
 
-[yeayea this is the link boi](https://mtmokata.github.io/bapharia/public/).
+[yeayea this is a link ](https://mtmokata.github.io/bapharia/public/).
 
 
 
