@@ -56,17 +56,29 @@
           <br />
         </h1>
           
-           <model-viewer src="models\test\source\xbox.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.05" environment-image="legacy">
-                <div class="progress-bar hide" slot="progress-bar">
-                    <div class="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-                    View in your space
-                </button>
-                <div id="ar-prompt">
-                    <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-                </div>
-            </model-viewer>
+            <div>
+                <style>
+                  model-viewer {
+                    cursor: grab;
+                    display: flex;
+                    height: 100vh;
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    user-select: none;
+                  }
+                </style>
+                
+                <model-viewer
+                  src="models\test\source\xbox.glb"
+                  alt="xobx controller"
+                  exposure="1.000"
+                  environment-image="legacy"
+                  camera-controls
+                  ar
+                >
+                </model-viewer> 
+            </div>
           
         <select class="home-select">
           <option value="Option 1">Boobas</option>
