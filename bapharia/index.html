@@ -55,12 +55,14 @@
           <span>Animech at home, btw these are BP files and there is even lightning which u can configure and animations are possible</span>
           <br />
         </h1>
-          
+          <audio autoplay loop  id="playAudio">
+            <source src="music/Nujabes.mp3">
+          </audio>
         <div>
             <style>
               model-viewer {
                 cursor: grab;
-                display: flex;
+                display: inline-block;
                 height: 300px;
                 width: 300px;
                 overflow: hidden;
@@ -78,12 +80,17 @@
               ar
             >
             </model-viewer> 
+            <model-viewer
+              src="models\test\source\xbox.glb"
+              alt="xobx controller"
+              exposure="1.000"
+              environment-image="legacy"
+              camera-controls
+              ar
+            >
+            </model-viewer> 
         </div>
-          <audio src="music/NujabesAruarianDance.mp3" autoplay>
-              <p>If you are reading this, it is because your browser does not support the audio element.     </p>
-              <embed src="/music/good_enough.mp3" width="180" height="90" hidden="true" />
-          </audio>
-
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4xlpJ99yL9xYQtzG6c3hwk?utm_source=generator" width="100%" height="180" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
          <!-- <py-script>
             print("Test")
             print('Enter your name:')
