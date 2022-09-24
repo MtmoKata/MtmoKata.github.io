@@ -10,9 +10,11 @@
   background-image: linear-gradient(180deg, rgb(189, 195, 199) 0.00%,rgb(136, 83, 83) 100.00%);
 }
 .home-text {
-  top: 60px;
-  left: 276px;
+  top: 0px;
+  left: 0px;
   color: #790d0d;
+  bottom: 0px;
+  margin: auto;
   position: absolute;
 }
 .home-select {
